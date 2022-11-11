@@ -18,14 +18,14 @@
         <img src="favicon.ico"> 
       </div>
       <form id="login" class="input-group">
-        <input type="text" class="input-field" placeholder="User Id" required>
+        <input type="text" class="input-field" placeholder="User ID" required>
         <input type="text" class="input-field" placeholder="Enter Password" required>
         <input type="checkbox" class="check-box"><span>Remember Password</span>
         <button type="submit" class="submit-btn">Log In</button>
       </form> 
       <form id="register" class="input-group">
-        <input type="text" class="input-field" placeholder="User Id" required>
-        <input type="email" class="input-field" placeholder="Email Id" required>
+        <input type="text" class="input-field" placeholder="User ID" required>
+        <input type="email" class="input-field" placeholder="Email" required>
         <input type="text" class="input-field" placeholder="Enter Password" required>
         <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
         <button type="submit" class="submit-btn">Register</button>
@@ -39,16 +39,21 @@
             var z = document.getElementById("btn");
 
             function register(){
+                console.log("Trigger login");
                 x.style.left = "-400px";
                 y.style.left = "50px";
                 z.style.left = "110px";
             }
             function login(){
-                x.style.left = "50";
+                console.log("Trigger reg");
+                x.style.left = "50px";
                 y.style.left = "450px";
                 z.style.left = "0";
             }
         </script>
-
+    <div class="text-box">
+        <p> <strong>First you should have a webspace, where you will upload your registration page. Create a text file index.html. Create containers to put inside text boxes like: Username, Password, ID. All fields should be inside container. Use CSS style to design your webpage, better use classes to each container. Also, dont forget to include checkboxes and change background color. <strong></strong>  </p>
+    </div>
   </body>
+  
 </html>
