@@ -1,1 +1,0 @@
-# akatcuki18.github.io
