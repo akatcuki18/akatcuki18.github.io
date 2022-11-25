@@ -7,7 +7,7 @@
   height: 100px;
   background: pink;
   position: relative;
-  animation: longer 4s infinite;
+  transition: width 3s;
 }
 
 #lar {
@@ -16,13 +16,13 @@
   height: 100px;
   background: pink;
   position: relative;
-  animation: larger 4s infinite;
+  transition: width 3s, height 3s;
 }
-@keyframes longer {
-  100% { width: 500px;}
+#lon:hover{
+  width: 300px;
 }
-@keyframes larger {
-  100% { width: 180px; height: 180px;}
+#lar:hover {
+  width: 180px; height: 180px;
 }
   </style>
   </head>
@@ -31,3 +31,4 @@
     <div id="lar">2</div>
   </body>
 </html>
+
