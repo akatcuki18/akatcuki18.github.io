@@ -230,8 +230,17 @@ hr {
 footer {
 	padding: 5%;
 }
+.about-us {
+	padding: 10%;
+	height: auto;
+	text-align: center;
+	bottom: 0%;
+}
 /* End  */
-
+.site-title img {
+	max-height: 100px;
+	max-width: 400px;
+  }
 /* Nav animation */
 
 @-webkit-keyframes fill {
@@ -249,3 +258,23 @@ footer {
 		background: #333;
 	}
 }
+a {
+	background-color: white;
+	color: black;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 35px;
+  }
+  
+  a:hover,
+  a:active {
+	color: grey;
+	text-decoration: none;
+  }
+  
+  #card-text {
+	text-align: left;
+	font-size: 25px;
+  }
